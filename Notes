@@ -1,0 +1,180 @@
+#To Print Things #Python is CaseSensitive
+print("Hello World");
+
+#Variables
+Name = "Akshay";
+age = 27
+print(Name)
+print(age)
+#Boolean
+isGenius = True;
+
+#Input 
+myName = input("Write your Name:");
+print(myName);
+
+#Concatenation 
+print("Hello" +myName);
+
+#Type Conversion
+oldAge = "21";
+newAge = int(oldAge)+ 2;
+print(newAge);
+
+#Someplaces we need to do type Conversion and Some places it is done automatically
+firstNumber = 10;
+secondNumber = 20;
+sum = firstNumber + secondNumber;
+sum = int(sum);
+print(sum);
+
+# Utilities 
+Number.find();
+Number.replace();
+
+#Keywords
+print()
+
+# Arithmetic Operators 
+print(5+2);
+print(5-2);
+print(5*2);
+print(5/2); #Answer 2.5
+print(5 // 2 );  #Answer 2
+print(5%2); #Print Remainder
+print(5 ** 2);  #5 to the power 2
+
+# Operator Precedance
+* > / > + > - 
+
+#Comparison Operator
+print (3>2)
+print (3<2)
+print (3>=2)
+print (3=<2)
+print (3==2)
+print (3!=2)
+print (3===2)
+print (2>1 || 3>2)
+print (2>1 && 3>2)
+print(!2>3)
+
+#if Else Statement
+age =22;
+if age>18:
+    print("You are a Adult");
+elif age<18 and age>10:
+    print("You are a Kid");
+else:
+    print("What are you Doing Here!!")
+
+
+#Mini Calculator
+firstNumber = input("Enter Details of First Number:");
+secondNumber = input("Enter Details of Second Number:");
+firstNumber = int(firstNumber);
+secondNumber = int(secondNumber);
+operation = input("Enter Operation to Be performed: ");
+if operation == "+":
+  print(firstNumber+secondNumber);
+elif operation == "-":
+  print(firstNumber-secondNumber);
+elif operation == "*":
+  print(firstNumber*secondNumber);
+elif operation =="/":
+  print(firstNumber / secondNumber);
+elif operation == "%":
+  print(firstNumber % secondNumber);
+else:
+     print("ERROR")
+
+#Range Function
+abc = range(5);
+print(abc);
+
+#While Loop
+i = 1;
+while i<=5:
+  print(i);
+  i = i+1;
+
+#Tree Pattern 
+i = 1;
+while i<=5:
+  print(i* "x");
+  i = i+1;
+
+#Reverse Tree Pattern
+  i = 5;
+  while i>=1:
+    print(i* "x");
+    i = i-1;
+
+#for Loop
+for i in range(5):
+    print(i+1);
+
+#List 
+abc = [1,2,3,4,5,6,7]
+print(abc[0]);
+print(abc[-1]);
+print(abc[0:2]);
+
+for score in abc:
+   print(score);
+
+abc.append(100)
+abc.insert(0, 79)
+print(99 in abc);
+print(lenght(abc));
+abc.clear();
+
+#Break is used to stop further execution
+#Continue is used to skip that particular operation and continue the rest of it
+
+#TUPLE
+marks = (1,2,3,4,5,6,7,8);
+//they are immutable means there values can't be changed easily 
+
+#SET
+//No index is here in SET 
+a = {100,23,22,22,33,45,66};
+
+#Dictionary 
+//It's a KEY-VALUE PAIR
+marks = {"English": 20, "Hindi": 25, "Maths": 100};
+print(marks["English"]);
+marks["Physics"] = 100;
+print(marks);
+marks["Physics"] = 200;
+
+#Functions 
+//Things that perform a Particular Task 
+int() //Inbuilt Functions 
+def abc() //UserDefined Functions 
+def abc(parameters) //UserDefined Functions 
+
+#Example 
+def sum(first,second):
+    print(first+second);   
+sum(1,2)
+
+
+#Module Functions
+import Maths
+from math 
+print(dir(math));
+
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
